@@ -1,0 +1,19 @@
+agent:
+  listen: "9999"
+mysql:
+  host: 10.90.32.3
+  port: 3306
+  user: root
+  password: "=Wa8)rHLh7)xQq:Q]!YJ"
+
+sync-mq:
+  - name: A1
+    workdir: /home/wwwroot/feifangj/feifangj_sync_mq
+    database: test_feifangj
+    binary: ./a6_sync_mq
+    config: app.yml
+  - name: A6
+    workdir: /home/wwwroot/a6/a6_sync_mq
+    database: a6
+    binary: ./a6_sync_mq
+    config: app.yml
