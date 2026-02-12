@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e5d7a3-472a-4eeb-91af-cb369efa51e9" name="更改" comment="agent 部署&#10;token效验&#10;IP 白名单">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2026-02-12/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2026-02-12/info.log" afterDir="false" />
-    </list>
+    <list default="true" id="95e5d7a3-472a-4eeb-91af-cb369efa51e9" name="更改" comment=".ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +30,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="4122fec9-9d17-4ca6-8af0-9b6dd9a184bf" />
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/moreyLee/server.git&quot;,
-    &quot;accountId&quot;: &quot;4122fec9-9d17-4ca6-8af0-9b6dd9a184bf&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/moreyLee/gin-vue-admin.git",
+    "accountId": "4122fec9-9d17-4ca6-8af0-9b6dd9a184bf"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -188,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agent 部署&#10;token效验&#10;IP 白名单" />
-    <option name="LAST_COMMIT_MESSAGE" value="agent 部署&#10;token效验&#10;IP 白名单" />
+    <MESSAGE value=".ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".ignore" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
