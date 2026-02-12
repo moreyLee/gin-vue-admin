@@ -145,8 +145,8 @@ jenkins:
 telegram:
   enable: true
   url: https://api.telegram.org/bot
-  bot-name: Ays63kxHLTUht5kUiCTEyVPxBym57iuH8KNsMLBmfA1wMFqzNoT6    # CG88888_bot
-  bot-token: gGWIwo1F94WobZaeSKVjWQE6CEX3w5pBr93ocZ0VIe6fPacwa1DIubg5l69V2XMLLoeebupQRGD++ncCk4re91wLLDgSocFIQPk=  #CG88888_bot token
+  bot-name: QLxOvjoAi5u0yEDSys+/BlmrTfouDytUdlhagROEF0maZmHh1qGn    # CG88888_bot
+  bot-token: ElPf/B+TACKxRKHf2RJilCw4RgBFm5tEuDB/IDBIng0moQ2wYNCn33YkCP5k7mfE72jh6hUZL+Fqm9M6NzxwJxwXD7mgYFTvirU=  #CG88888_bot token
   aes-key: 61afa6ddca1285f640b03c8c64d02c31
   AllowGroupIDs:
     - -4582084269    #开发测试群
