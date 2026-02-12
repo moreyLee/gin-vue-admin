@@ -5,237 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e5d7a3-472a-4eeb-91af-cb369efa51e9" name="更改" comment="agent 部署&#10;token效验&#10;IP 白名单">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/Read.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/config/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/config/mysql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/middleware/allow_white_ip.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/model/command/exec_command.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/model/es_sync_mq.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent/ws/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-08/btcMonitor.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-08/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-08/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-09/btcMonitor.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-09/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-10/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-11/btcMonitor.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-11/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-11/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-12/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/2026-02-12/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api/v1/binance/binance_cost.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api/v1/cg/enter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api/v1/cg/gz/enter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api/v1/cg/gz/gz_server_info.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api/v1/telegram/enter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/api/v1/telegram/telegram_api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config/ngrok.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/core/ngrok.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/model/cg/gz_server_info.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/agent/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/ngrok/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/ngrok/ngrok_start.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/botInstance/bot_instance.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/model/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/buildjk/ParseMsgKeyword.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/command/activity_script.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/command/cmd_pathmap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/esSyncMq/es_sync_mq.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/execJenkins/SiteCodeMap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/parser/parseActivityScript.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/qinstor/android_uploader.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/sql_exec/sql_exec.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/sql_exec/sql_map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/webhook/dedup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/webhook/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/webhook/dispatcher.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/modules/telegram/webhook/webhook.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router/agent/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router/agent/enter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router/cg/enter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router/cg/gz/enter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router/cg/gz/gz_server_info.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router/cg/status.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/router/telegram/enter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service/binance/binance_cost.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service/binance/gird_trader.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/aes_crypto/mm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/aes_crypto/zmgj_aes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/agent/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/agent/generate_token.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/binance/order_C2C.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/cloudflare/READ.me" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/cloudflare/devops.555c.vip/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/cloudflare/devops.555c.vip/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/linux/docker-compose/doris/install.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/linux/docker-compose/node_exporter/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/linux/shell/adminssl.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/linux/shell/google_yunAgent.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/php/test_mq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/rabbitmq/test_rabbitmq.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/sync/sync_gz_server/log/2025-10-06/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/sync/sync_gz_server/log/2025-10-08/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/sync/sync_gz_server/log/2025-10-09/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/sync/sync_gz_server/log/2025-10-15/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/sync/sync_gz_server/log/2025-10-20/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/sync/sync_gz_server/log/2025-11-03/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/sync/sync_gz_server/log/2025-11-03/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/utils/send_tg_message.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/api/es_sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/api/es_sync.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/agent/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/global/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/global/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/initialize/agent.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/initialize/agent.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/initialize/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/initialize/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/initialize/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/initialize/mysql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/router/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/service/syncmq.go" beforeDir="false" afterPath="$PROJECT_DIR$/agent/service/syncmq.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent/utils/exec_cmd.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/GOHCache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c.corrupted.20251001-110506.reason.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c.corrupted.20251001-110506.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c/storage_v2/_src_/schema/cg_devops.uC7rcw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/60d74997-2dad-47e0-9cc4-de1c919f876c/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e.corrupted.20251001-110506.reason.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e.corrupted.20251001-110506.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e/storage_v2/_src_/schema/site.group.manage.v1.Tq75bQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/688f5a93-8a71-4388-8c5a-2735a0649f8e/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/cca6f5e3-3923-483c-a98f-13f808f39761.corrupted.20250314-082051.reason.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/dataSources/cca6f5e3-3923-483c-a98f-13f808f39761.corrupted.20250314-082051.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/http-test/http-test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/OPERATOR.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/OPERATOR.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/cg/bw/bw_env_api.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/cg/bw/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router/cg/bw/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/mahjong/enter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/mahjong/mahjong.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/system/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/system/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/system/sys_lottery.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/system/sys_lottery_record.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/system/sys_tgwebhook.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/webhook/handle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/system/tgbot/updateJkCode/update_Jenkins_code.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/git_info/update_Jenkins_code.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/authenv/authparams.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/authenv/authparams.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/prodenv/build_jenkins_task.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/prodenv/build_jenkins_task.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/prodenv/get_admin_link.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/prodenv/get_admin_link.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/prodenv/get_git_branch.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/prodenv/get_git_branch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/sqlexec/sql_exec.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/buildjk/BuildJobsWithTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/buildjk/BuildJobsWithTest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/cmd/cmd_pathmap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/cmd/executor_command.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/command/executor_command.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/cmd/jenkins_exec_cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/command/jenkins_exec_cmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/git_info/git_branch.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/git_info/git_branch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/help/help.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/help/help.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/lottery/bw_template.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/lottery/bw_template.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/lottery/bw_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/lottery/bw_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/bw/bwFileBrowser.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/bw/bwFileBrowser.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/bw/manage_bw_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/bw/manage_bw_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/bw/serv_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/bw/serv_map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/bwtemplate/bwMbFileBrowser.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/bwtemplate/bwMbFileBrowser.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/bwtemplate/bw_template_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/bwtemplate/bw_template_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/bwtemplate/serv_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/bwtemplate/serv_map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/fileBrowser/commons.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/fileBrowser/commons.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/gz/gzFileBrowser.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/gz/manage_gz_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/manageservice/execJenkins/jenkins_exec_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/manageservice/gz/pathmap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/qinstor/android_uploader.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/qinstor/dawutai_uploader.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/qinstor/dawutai_uploader.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/qinstor/fix_envfile.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/qinstor/fix_envfile.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/qinstor/ios_uploader.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/qinstor/ios_uploader.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/qinstor/mini_uploader.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/qinstor/mini_uploader.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/qinstor/pathmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/qinstor/pathmap.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/qinstor/qy_upload_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/qinstor/qy_upload_cache.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/redis_manage/manage_redis_op.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/redis_manage/manage_redis_op.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/v1/telegram/testenv/redis_manage/redis_type_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/modules/telegram/testenv/redis_manage/redis_type_map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/binance.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/binance.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/fileBrowser.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/fileBrowser.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/telegram.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/telegram.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/core/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/core/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/core/viper.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/core/viper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/git.operation" beforeDir="false" afterPath="$PROJECT_DIR$/server/Git.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/db_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/db_list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/gorm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/gorm_mssql.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/gorm_mssql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/gorm_oracle.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/gorm_oracle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/gorm_pgsql.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/gorm_pgsql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/gorm_sqlite.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/gorm_sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/rabbitmq/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/rabbitmq/consumer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/telegram/telegram.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/initialize/timer.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/initialize/timer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/model/lottery/gam_lottery.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/model/lottery/gam_record.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/packfile/notUsePackFile.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/packfile/usePackFile.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/JenkinsFile_k8s" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/JenkinsFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/build/build_docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/build/build_docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/build/build_ngrok.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/build/build_ngrok.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/build/build_ocr.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/build/build_ocr.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/build/build_selenium_chrome.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/build/build_selenium_chrome.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/cg_devops.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/cggame/Jenkins_executor_cmd" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/cggame/Jenkins_executor_cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/cggame/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/cggame/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/cggame/executor_cmd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/cggame/executor_cmd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/deploy/cleanup_remote_code.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/deploy/cleanup_remote_code.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/deploy/upload_code.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/deploy/upload_code.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pipeline/jenkins_devops/startup_docker" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/pipeline/jenkins_devops/startup_docker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugin/cron/cron.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugin/cron/cron.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/gamble/enter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/mahjong/enter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/mahjong/mahjong.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/system/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router/system/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/system/sys_lottery.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/system/sys_lottery_record.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/router/system/sys_tg_webhook.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router/telegram/telegram.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/datasync/gz_env_sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/datasync/gz_env_sync.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/jenkins/jenkins_redis_executor.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/jenkins/jenkins_redis_executor.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/slotgame/enter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/system/sys_auto_code.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/system/sys_auto_code.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/system/sys_casbin.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/service/system/sys_casbin.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service/system/sys_lottery.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/task/JenkinsAPI.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/task/JenkinsAPI.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/task/JenkinsCommon.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/task/JenkinsCommon.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/task/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/task/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/aes_crypto/ces.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/aes_crypto/ces.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/binance/profit.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/aes_crypto/aes_bot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/linux/docker-compose/doris/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/docker-compose/doris/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/linux/docker-compose/xxl-job/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/docker-compose/xxl-job/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/linux/docker-compose/xxl-job/install.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/docker-compose/xxl-job/install.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/linux/shell/ssl.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/linux/shell/ssl.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/telegram/webhook_switch.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/utils/SendMsg.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/utils/cg/encryption.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/utils/crypto/encrypt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/utils/upload/obs.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/utils/upload/obs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2026-02-12/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2026-02-12/info.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,6 +30,9 @@
     &quot;assignee&quot;: &quot;moreyLee&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4122fec9-9d17-4ca6-8af0-9b6dd9a184bf" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/moreyLee/server.git&quot;,
@@ -309,7 +83,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true"
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [

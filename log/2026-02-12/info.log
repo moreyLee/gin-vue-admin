@@ -112,3 +112,4 @@
 [gin-vue-admin]2026/02/12 - 16:04:59.725	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/modules/ngrok/ngrok_start.go:40	ngrok started	{"url": "https://usurpingly-uncreative-yulanda.ngrok-free.dev"}
 [gin-vue-admin]2026/02/12 - 16:04:59.725	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/ngrok.go:27	ngrok ready	{"url": "https://usurpingly-uncreative-yulanda.ngrok-free.dev"}
 [gin-vue-admin]2026/02/12 - 16:04:59.725	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/server.go:41	server run success on 	{"address": ":7777"}
+[gin-vue-admin]2026/02/12 - 17:04:53.695	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 67174}
