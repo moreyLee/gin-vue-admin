@@ -1,4 +1,0 @@
-[gin-vue-admin]2026/02/08 - 16:57:48.889	[31merror[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/server.go:47	accept tcp [::]:7777: use of closed network connection
-[gin-vue-admin]2026/02/08 - 17:00:34.998	[31merror[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/server.go:47	accept tcp [::]:7777: use of closed network connection
-[gin-vue-admin]2026/02/08 - 17:02:18.383	[31merror[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/server.go:47	accept tcp [::]:7777: use of closed network connection
-[gin-vue-admin]2026/02/08 - 20:04:17.384	[31merror[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/server.go:47	accept tcp [::]:7777: use of closed network connection
