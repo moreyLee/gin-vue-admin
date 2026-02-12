@@ -6,6 +6,6 @@ import (
 )
 
 var (
-	Cfg *config.Config
-	DB  *gorm.DB
+	ET_CONFIG config.Config
+	ET_MYSQL  *gorm.DB
 )

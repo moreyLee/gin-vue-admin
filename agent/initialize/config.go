@@ -14,8 +14,8 @@ func InitConfig() {
 	v.SetConfigName("config")
 	v.SetConfigType("yml")
 
-	// 1️⃣ 当前工作目录（IDE / go run）
-	v.AddConfigPath(".")
+	// 1️⃣ 当前工作目录（IDE / go run） 也可能指定到server 下的config.yml
+	//v.AddConfigPath(".")
 
 	// 2️⃣ agent 目录（源码运行）
 	v.AddConfigPath("./agent")
@@ -28,11 +28,11 @@ func InitConfig() {
 	if err := v.ReadInConfig(); err != nil {
 		panic(fmt.Errorf("读取 config.yml 失败: %w", err))
 	}
-
+	fmt.Println("[agent] using config:", v.ConfigFileUsed())
 	var cfg config.Config
 	if err := v.Unmarshal(&cfg); err != nil {
 		panic(err)
 	}
 
-	global.Cfg = &cfg
+	global.ET_CONFIG = cfg
 }

@@ -1,5 +1,10 @@
 agent:
   listen: "9999"
+  token: "AGENT_14ee06a05db8de56bb5ff5ff0b81793c46af9657e4c06d1a39a3e377d8523225"
+  allow_ips:
+    - "::1"
+    - "127.0.0.1"
+    - "130.62.206.242"
 mysql:
   host: 10.90.32.3
   port: 3306

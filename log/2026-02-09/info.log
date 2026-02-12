@@ -1,0 +1,29 @@
+[gin-vue-admin]2026/02/09 - 00:04:25.170	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 71283}
+[gin-vue-admin]2026/02/09 - 01:04:25.135	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 71100}
+[gin-vue-admin]2026/02/09 - 02:04:25.128	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70483}
+[gin-vue-admin]2026/02/09 - 03:04:25.139	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70748}
+[gin-vue-admin]2026/02/09 - 04:04:25.127	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 71230}
+[gin-vue-admin]2026/02/09 - 05:04:25.293	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 71164}
+[gin-vue-admin]2026/02/09 - 06:04:25.128	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70797}
+[gin-vue-admin]2026/02/09 - 07:04:25.295	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70676}
+[gin-vue-admin]2026/02/09 - 08:04:25.133	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 71088}
+[gin-vue-admin]2026/02/09 - 09:04:25.346	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70376}
+[gin-vue-admin]2026/02/09 - 10:04:25.115	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70525}
+[gin-vue-admin]2026/02/09 - 11:04:25.328	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70242}
+[gin-vue-admin]2026/02/09 - 12:04:25.259	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70619}
+[gin-vue-admin]2026/02/09 - 13:04:25.428	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 71173}
+[gin-vue-admin]2026/02/09 - 14:04:25.561	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70872}
+[gin-vue-admin]2026/02/09 - 15:04:25.303	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70748}
+[gin-vue-admin]2026/02/09 - 16:04:25.257	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 70518}
+[gin-vue-admin]2026/02/09 - 21:49:18.270	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/initialize/timer.go:38	✅ 同步T/A系列.env数据 定时任务成功
+[gin-vue-admin]2026/02/09 - 21:49:18.270	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/initialize/timer.go:49	✅ 注册 BTC 定时任务成功
+[gin-vue-admin]2026/02/09 - 21:49:18.271	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/initialize/timer.go:60	✅ 注册 BTC 成本指标，定时任务成功
+[gin-vue-admin]2026/02/09 - 21:49:18.383	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/initialize/gorm.go:55	自动迁移表成功
+[gin-vue-admin]2026/02/09 - 21:49:23.861	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/initialize/elasticsearch.go:30	Elasticsearch 初始化成功	{"Version": "6.8.23", "StatusCode": 200}
+[gin-vue-admin]2026/02/09 - 21:49:24.568	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/initialize/router.go:69	register swagger handler
+[gin-vue-admin]2026/02/09 - 21:49:24.569	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/initialize/router.go:121	router register success
+[gin-vue-admin]2026/02/09 - 21:49:25.266	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/modules/ngrok/ngrok_start.go:40	ngrok started	{"url": "https://usurpingly-uncreative-yulanda.ngrok-free.dev"}
+[gin-vue-admin]2026/02/09 - 21:49:25.266	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/ngrok.go:27	ngrok ready	{"url": "https://usurpingly-uncreative-yulanda.ngrok-free.dev"}
+[gin-vue-admin]2026/02/09 - 21:49:25.267	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/core/server.go:41	server run success on 	{"address": ":7777"}
+[gin-vue-admin]2026/02/09 - 22:49:18.290	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 69071}
+[gin-vue-admin]2026/02/09 - 23:49:18.306	[34minfo[0m	/Users/david/Documents/projects/gin-vue-admin/server/service/binance/datasync/btc_market_collector.go:76	✅ 已保存 BTC 市场数据	{"price": 69112}

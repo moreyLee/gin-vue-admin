@@ -1,0 +1,234 @@
+captcha:
+    key-long: 6
+    img-width: 240
+    img-height: 80
+    open-captcha: 1 # 0 开启验证码 1 关闭验证码
+    open-captcha-timeout: 3600
+cors:
+    mode: strict-whitelist
+    whitelist:
+        - allow-origin: example1.com
+          allow-methods: POST, GET
+          allow-headers: Content-Type,AccessToken,X-CSRF-Token, Authorization, Token,X-Token,X-User-Id
+          expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+          allow-credentials: true
+        - allow-origin: example2.com
+          allow-methods: GET, POST
+          allow-headers: content-type
+          expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+          allow-credentials: true
+db-list:
+    - type: ""
+      alias-name: ""
+      prefix: ""
+      port: ""
+      config: ""
+      db-name: ""
+      username: ""
+      password: ""
+      path: ""
+      engine: ""
+      log-mode: error
+      max-idle-conns: 10
+      max-open-conns: 100
+      singular: false
+      log-zap: false
+      disable: true
+email:
+    to: ""
+    from: ""
+    host: ""
+    secret: ""
+    nickname: ""
+    port: 0
+    is-ssl: false
+excel:
+    dir: ./resource/excel/
+hua-wei-obs:
+    path: ""
+    bucket: ""
+    endpoint: ""
+    access-key: ""
+    secret-key: ""
+jwt:
+    signing-key: 6fde2c9e-54d6-45e1-9ed9-3cb684f8da9e
+    expires-time: 7d
+    buffer-time: 1d
+    issuer: qmPlus
+local:
+    path: uploads/file
+    store-path: uploads/file
+mongo:
+    coll: ""
+    options: ""
+    database: ""
+    username: ""
+    password: ""
+    auth-source: ""
+    min-pool-size: 0
+    max-pool-size: 0
+    socket-timeout-ms: 0
+    connect-timeout-ms: 0
+    is-zap: false
+    hosts: []
+mysql:
+    prefix: ""
+    port: "3306"
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db-name: cg_devops
+    username: root
+    password: Devops%588
+    path: 127.0.0.1 #本地数据库
+    engine: "InnoDB"
+    log-mode: error
+    max-idle-conns: 10
+    max-open-conns: 100
+    singular: false
+    log-zap: false
+redis:
+    addr: 127.0.0.1:6379
+    password: ""
+    db: 0
+    useCluster: false
+    clusterAddrs:
+        - 172.21.0.3:7000
+        - 172.21.0.4:7001
+        - 172.21.0.2:7002
+system:
+    db-type: mysql
+    oss-type: local
+    router-prefix: ""
+    addr: 7777
+    iplimit-count: 15000
+    iplimit-time: 3600
+    use-multipoint: false
+    use-redis: false
+    use-mongo: false
+zap:
+    level: info
+    prefix: '[gin-vue-admin]'
+    format: console
+    director: log
+    encode-level: LowercaseColorLevelEncoder
+    stacktrace-key: stacktrace
+    max-age: 0
+    show-line: true
+    log-in-console: true
+binance:
+  coinGeckoURL: "https://api.coingecko.com"  #采集现货指标
+  macroMicroURL: "https://en.macromicro.me"  #采集成本指标
+  apiKey: mYjl36AU5IZXGwcnfditgbsnilxbVLxnYsw5bUnFmfqeUa4W9k1NlFG069fwxkVv
+  secretKey: IKsc960hNbsAQuc2izoqWSMyRN7e2XrB787zhn8R2uBt0LpBK0ENOrfPgYUL3HYM
+ipWhitelist:
+  enable: "true"    # 是否启用IP白名单
+  ips:
+    - "127.0.0.1"
+    - "::1"
+    - "192.168.1.0/24"
+    - "192.168.100.0/24"
+elasticsearch:
+  enable: true
+  url: http://34.87.105.20:9200
+  sniff: false  #将返回的url 作为请求的路径
+  healthcheckInterval: 5s
+  index-prefix: gva
+rabbitmq:
+  url: "amqp://admin:admin@34.87.105.20:5672"
+  queue-name: "redis_queue_david"
+jenkins:
+  url: k7kesncx4XfeFZY4UUfR+CZwEyXXW3LezEQ= #http://jenkins1.3333d.vip/  #加密
+  user: mqkHqyM= #admin   # 加密
+  api-token: yvxf8H0srC3aTM81XlCE4jJrh+X8zzrpSVvk4+tvKJk8nA== # 115202b0a72dadd4f89878e7d352aa8552
+  testUrl: k7kesncx4XfeFZY4UUfOp8Jti2vVA70QpavQ/w==     #测试环境  加密 http://jenkins.qiyinyun.com/
+  testUser: iaIFtg==   # 加密 root
+  testToken: yvxYoXgn/HvdTs9nXVGG41BaYHauXZb4nDAz0nDZ0m4LoQ==  # 加密 112c592ff526bef52a928154e0b98332ac
+telegram:
+  enable: true
+  url: https://api.telegram.org/bot
+  bot-name: Ays63kxHLTUht5kUiCTEyVPxBym57iuH8KNsMLBmfA1wMFqzNoT6    # CG88888_bot
+  bot-token: gGWIwo1F94WobZaeSKVjWQE6CEX3w5pBr93ocZ0VIe6fPacwa1DIubg5l69V2XMLLoeebupQRGD++ncCk4re91wLLDgSocFIQPk=  #CG88888_bot token
+  aes-key: 61afa6ddca1285f640b03c8c64d02c31
+  AllowGroupIDs:
+    - -4582084269    #开发测试群
+    - -1002175388650   #T系列测试发布群
+    - -4520228922     # wendy 群
+#  chat-id:  #测试群组 -4275796428
+  authorized_users:
+    - David5886
+    - dring366
+    - gloria11122
+    - Darren889
+    - mikan971
+    - lada_666888
+    - Carter20250625
+    - louis1112221
+    - vivi12300
+    - nikon_aaa
+    - snake_activity_2025
+    - ershijiu123
+    - laomaor
+  action_permissions:
+    配置下载:
+      - dring366
+      - David5886
+      - TomSupe
+      - honda58888
+  administrator:
+    - David5886
+cloudflare:
+  cf-api-login: djpt36@163.com
+  global-key: 0237bd44ec3b541e622d6aa1b187aac9193f0
+  api-url: https://api.cloudflare.com/client/v4/zones
+selenium:
+  admin_url: "https://web.3333c.vip/"
+  username: "yunwei"
+  password: "^6^p5CM7wdKypymswMh7"
+  captcha_file: "./code.png"
+  full_page_screenshot_file: "./full_page_screenshot.png"
+  api_ocr_url: "http://localhost:8000/ocr"  # ddddOcr 识别验证码
+  chromedriver_path: "/Users/david/tools/chromedriver/chromedriver"
+  port: 5555
+qinStore:
+  access-key: "NNZPIPSFTPVVXPIIIJZY"
+  secret-key: "NxXgoB2ELIwjVuxair9CtZNd6knHA21jZoJxAn3x"
+  bucket: "bwmobile"
+  path-prefix: "/feifangj/"
+  endpoint: "https://gd2.qingstor.com"
+  region: "gd2"
+fileBrowser:
+  gz-url: "https://gz.filebrowser.b777.vip"
+  bw-url: "https://bw.filebrowser.b777.vip"
+  mb-url: "https://mb.filebrowser.b777.vip"
+  username: "admin"
+  password: "3ezhwPMrShn6kTJH"
+  bw-pwd: "_dTvvHV8Cxr7oyo2"
+  mb-pwd: "HKjMP,wbP~-y,+3pd%ez"
+fileBrowsers:
+  hosts:
+    As:
+      url: "https://asfilebrowser.b777.vip"
+      username: "admin"
+      password: "rq-o+>yETjqx99h43N7M"
+      sites: ["feifangj","top1ty","a6","a7"]    # 站点名字 对应系统服务名的前缀
+    Ts:
+      url: "https://gz.filebrowser.b777.vip"
+      username: "admin"
+      password: "3ezhwPMrShn6kTJH"
+      sites: ["ywtest","gztest","ddtest","wctest","zhumenggj"]
+    Bw:
+      url: "https://gz.filebrowser.b777.vip"
+      username: "admin"
+      password: "_dTvvHV8Cxr7oyo2"
+    Mb:
+      url: "https://mb.filebrowser.b777.vip"
+      username: "admin"
+      password: "HKjMP,wbP~-y,+3pd%ez"
+  timeout: 30
+ngrok:
+  enable: true
+  token: 33UjlGzwI5VyLQXTQCeHFC9yD2a_5N1zRJSyJ3QaG6XCHgTLp
+agent:
+  timeout: 300
+  token: "AGENT_14ee06a05db8de56bb5ff5ff0b81793c46af9657e4c06d1a39a3e377d8523225"
+  endpoints:
+    activity_script: ws://127.0.0.1:9999/ws/activity-script
